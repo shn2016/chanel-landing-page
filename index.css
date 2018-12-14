@@ -1,0 +1,172 @@
+/* genetic */
+body{
+    margin: 0;
+}
+
+
+/* header */
+.chanel-menu-bar{
+    background:white;
+    border-top: solid 6px;
+    position:fixed;
+    top: 0;
+    left:0;
+    right:0;
+}
+.chanel-menu-bar h1{
+    text-align: center;
+    font-size: 2.4em;
+}
+
+/* banners */
+.banner{
+    height:55vh;
+    background-size: cover;
+    display:flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.banner-item{
+    color:#fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: abchanel-pb-s,sans-serif;
+    font-weight: 600;
+    text-shadow: 0 0 6px rgba(0,0,0,.6);
+
+}
+.banner-item span{ 
+    font-size: .75rem;
+    line-height: 1.5;
+} 
+
+.banner-item h2{ 
+    font-size: 2.5rem;
+    line-height: 1.125;
+    margin:0;
+} 
+
+.banner-item button{
+    margin-top: 1.125rem;
+    margin-bottom: 3rem;
+    height:3.125rem;
+    padding: 0 1.5625rem;
+    border:1px solid #000;
+}
+
+.banner-item button:hover{
+    text-decoration: underline;
+}
+
+/* banner img reference */
+#banner1{
+    background-image: url(./IMG/banner1.jpg)
+}
+#banner2{
+    background-image: url(./IMG/banner2.jpg)
+}
+#banner3{
+    background-image: url(./IMG/banner3.jpg)
+}
+#banner4{
+    background-image: url(./IMG/banner4.jpg)
+}
+#banner5{
+    background-image: url(./IMG/banner5.jpg)
+}
+#banner6{
+    background-image: url(./IMG/banner6.jpg)
+}
+#banner7{
+    background-image: url(./IMG/banner7.jpg)
+}
+#banner8{
+    background-image: url(./IMG/banner8.jpg)
+}
+#banner9{
+    background-image: url(./IMG/banner9.jpg)
+}
+#banner10{
+    background-image: url(./IMG/banner10.jpg)
+}
+
+/* subfooter section */
+.sub-footer{
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    padding-top:5vh;
+    padding-bottom: 10vh;
+}
+.contact-an-advisor, .find-a-store, .newsletter{
+    padding: 10px;
+    width: 20vw;
+}
+
+.sub-footer > div:not(:first-child){
+    margin-left:50px;
+}
+
+.description-holder h3{
+    font-size:.6875rem;
+    line-height: 1.27272727;
+    font-family: abchanel-pb-s,sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.description-holder p, .contact-method-holder button{
+    font-size:.875rem;
+    font-weight: 300;
+    font-family: Helvetica,Open-Sans,"sans-serif-light",sans-serif
+
+}
+.description-holder p{
+    color:#767676;
+    line-height: 1.2857;
+}
+
+.contact-method-holder button{
+    border-color: transparent;
+    text-decoration: underline;
+    color:#333;
+    padding:1px 10px 2px 0;
+}
+
+.search-holder{
+    padding:6px 0px;
+    border-bottom:solid #d8d8d8 0.5px;
+}
+
+.search-holder input{
+    border-color: transparent;
+    width: 100%;
+}
+
+/* footer section*/
+
+.footer{
+    background-color: #000;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 12vw;
+}
+
+.links ul h4{
+    color:#fff;
+    text-transform: uppercase;
+
+}
+.links li{
+    color:#9b9b9b;
+    line-height: 1.6875rem;
+    font-weight: 100;
+}
+ul{
+    list-style: none;
+    width:15.8vw;
+}
