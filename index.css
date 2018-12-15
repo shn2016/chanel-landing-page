@@ -3,7 +3,9 @@ body{
     margin: 0;
 }
 
-
+ul{
+    list-style: none;
+}
 /* header */
 .chanel-menu-bar{
     background:white;
@@ -150,23 +152,55 @@ body{
 
 .links{
     display: flex;
-    flex-direction: row;
+    flex-direction:row;    
     flex-wrap: wrap;
     justify-content: center;
-    margin: 0 12vw;
+    /* margin: 0 12vw; */
 }
 
 .links ul h4{
     color:#fff;
     text-transform: uppercase;
-
 }
 .links li{
     color:#9b9b9b;
     line-height: 1.6875rem;
     font-weight: 100;
 }
-ul{
-    list-style: none;
+.links ul{
     width:15.8vw;
+    border-bottom:solid #9b9b9b 0.05px;
+
+}
+
+.footer-bottom{
+    margin-left:12vw;
+    padding-bottom: 3vw;
+    display: inline-flex;
+}
+.footer-bottom label{
+    color:#9b9b9b;
+    size:.875rem;
+    padding-top:1rem;
+    padding-right:1rem;
+}
+
+.footer-bottom select{
+    color:#fff;
+    size:1.125rem;
+    border-color:transparent;
+    background-color: transparent;
+    margin-top:1rem;
+}
+.footer-bottom ul{
+    position:absolute;
+    right:10vw;;
+}
+.footer-bottom li{
+    display: inline;
+}
+
+.social-media{
+    max-width: 1.125rem;
+    max-height: 1.125rem;
 }
