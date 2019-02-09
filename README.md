@@ -1,1 +1,3 @@
-This is not real Chanel fashion page
+# Chanel Landing Page
+
+This project is solely used for practing HTML and CSS.
